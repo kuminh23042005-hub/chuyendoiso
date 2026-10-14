@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - [Họ và Tên]</title>
+    <link rel="stylesheet" href="cv.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="cv-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="profile-section">
+                <div class="avatar-wrapper">
+                    <img src="https://via.placeholder.com/150" alt="Ảnh đại diện" class="avatar" id="avatar">
+                    <label for="avatar-upload" class="avatar-upload-btn">
+                        <i class="fas fa-camera"></i>
+                    </label>
+                    <input type="file" id="avatar-upload" accept="image/*" hidden>
+                </div>
+                <h1 class="name" contenteditable="true">[Họ và Tên]</h1>
+                <p class="title" contenteditable="true">[Vị trí ứng tuyển / Chuyên môn]</p>
+                <div class="contact-info">
+                    <div class="contact-item" contenteditable="true">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>[Thành phố, Quận/Huyện]</span>
+                    </div>
+                    <div class="contact-item" contenteditable="true">
+                        <i class="fas fa-phone"></i>
+                        <span>[Số điện thoại]</span>
+                    </div>
+                    <div class="contact-item" contenteditable="true">
+                        <i class="fas fa-envelope"></i>
+                        <span>[email@example.com]</span>
+                    </div>
+                    <div class="contact-item" contenteditable="true">
+                        <i class="fab fa-linkedin"></i>
+                        <span>[linkedin.com/in/yourname]</span>
+                    </div>
+                    <div class="contact-item" contenteditable="true">
+                        <i class="fab fa-github"></i>
+                        <span>[github.com/yourname]</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <h2><i class="fas fa-user"></i> Giới thiệu</h2>
+                <p class="summary" contenteditable="true">[Viết 2-3 câu tóm tắt về bản thân: kinh nghiệm, kỹ năng chính, mục tiêu nghề nghiệp. Hãy làm cho nó súc tích và ấn tượng.]</p>
+            </div>
+
+            <div class="sidebar-section">
+                <h2><i class="fas fa-language"></i> Ngôn ngữ</h2>
+                <div class="skills-list" contenteditable="true">
+                    <div class="skill-item">
+                        <span class="skill-name">Tiếng Việt</span>
+                        <div class="skill-bar"><div class="skill-level" style="width: 100%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Tiếng Anh</span>
+                        <div class="skill-bar"><div class="skill-level" style="width: 80%"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <h2><i class="fas fa-tools"></i> Kỹ năng</h2>
+                <div class="skills-list" contenteditable="true">
+                    <div class="skill-category">
+                        <h3>Kỹ năng chuyên môn</h3>
+                        <div class="tags">
+                            <span class="tag">[Kỹ năng 1]</span>
+                            <span class="tag">[Kỹ năng 2]</span>
+                            <span class="tag">[Kỹ năng 3]</span>
+                            <span class="tag">[Kỹ năng 4]</span>
+                            <span class="tag">[Kỹ năng 5]</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Công cụ & Framework</h3>
+                        <div class="tags">
+                            <span class="tag">[Công cụ 1]</span>
+                            <span class="tag">[Công cụ 2]</span>
+                            <span class="tag">[Công cụ 3]</span>
+                            <span class="tag">[Công cụ 4]</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Kỹ năng mềm</h3>
+                        <div class="tags">
+                            <span class="tag">Giao tiếp</span>
+                            <span class="tag">Làm việc nhóm</span>
+                            <span class="tag">Giải quyết vấn đề</span>
+                            <span class="tag">Quản lý thời gian</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <h2><i class="fas fa-certificate"></i> Chứng chỉ</h2>
+                <div class="certificates" contenteditable="true">
+                    <div class="cert-item">
+                        <span class="cert-name">[Tên chứng chỉ]</span>
+                        <span class="cert-year">[Năm]</span>
+                    </div>
+                    <div class="cert-item">
+                        <span class="cert-name">[Tên chứng chỉ]</span>
+                        <span class="cert-year">[Năm]</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <section class="section">
+                <h2><i class="fas fa-briefcase"></i> Kinh nghiệm làm việc</h2>
+                <div class="experience-list" contenteditable="true">
+                    <article class="experience-item">
+                        <header class="experience-header">
+                            <div>
+                                <h3 class="job-title">[Vị trí công việc]</h3>
+                                <p class="company">[Tên công ty]</p>
+                            </div>
+                            <time class="date" datetime="2023-01">[Tháng/Năm] - [Tháng/Năm]</time>
+                        </header>
+                        <ul class="job-description">
+                            <li>[Mô tả thành tựu chính 1 - dùng số liệu cụ thể]</li>
+                            <li>[Mô tả thành tựu chính 2 - dùng số liệu cụ thể]</li>
+                            <li>[Mô tả thành tựu chính 3 - dùng số liệu cụ thể]</li>
+                            <li>[Mô tả trách nhiệm chính]</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">[Công nghệ 1]</span>
+                            <span class="tech-tag">[Công nghệ 2]</span>
+                            <span class="tech-tag">[Công nghệ 3]</span>
+                        </div>
+                    </article>
+
+                    <article class="experience-item">
+                        <header class="experience-header">
+                            <div>
+                                <h3 class="job-title">[Vị trí công việc]</h3>
+                                <p class="company">[Tên công ty]</p>
+                            </div>
+                            <time class="date" datetime="2021-01">[Tháng/Năm] - [Tháng/Năm]</time>
+                        </header>
+                        <ul class="job-description">
+                            <li>[Mô tả thành tựu chính 1]</li>
+                            <li>[Mô tả thành tựu chính 2]</li>
+                            <li>[Mô tả trách nhiệm chính]</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">[Công nghệ 1]</span>
+                            <span class="tech-tag">[Công nghệ 2]</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2><i class="fas fa-graduation-cap"></i> Học vấn</h2>
+                <div class="education-list" contenteditable="true">
+                    <article class="education-item">
+                        <div class="education-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="education-content">
+                            <h3>[Tên bằng cấp / Chương trình]</h3>
+                            <p class="school">[Tên trường Đại học / Cao đẳng]</p>
+                            <time class="date">[Năm tốt nghiệp]</time>
+                            <p class="details">[Chuyên ngành] • [GPA/Xếp loại - nếu có] • [Hoạt động nổi bật]</p>
+                        </div>
+                    </article>
+                    <article class="education-item">
+                        <div class="education-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="education-content">
+                            <h3>[Tên khóa học / Chứng chỉ chuyên sâu]</h3>
+                            <p class="school">[Tổ chức đào tạo]</p>
+                            <time class="date">[Năm hoàn thành]</time>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2><i class="fas fa-project-diagram"></i> Dự án tiêu biểu</h2>
+                <div class="projects-list" contenteditable="true">
+                    <article class="project-item">
+                        <h3>[Tên dự án]</h3>
+                        <p class="project-desc">[Mô tả ngắn gọn dự án: vấn đề giải quyết, công nghệ dùng, kết quả đạt được]</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">[Tech 1]</span>
+                            <span class="tech-tag">[Tech 2]</span>
+                            <span class="tech-tag">[Tech 3]</span>
+                        </div>
+                    </article>
+                    <article class="project-item">
+                        <h3>[Tên dự án]</h3>
+                        <p class="project-desc">[Mô tả ngắn gọn dự án]</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">[Tech 1]</span>
+                            <span class="tech-tag">[Tech 2]</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2><i class="fas fa-trophy"></i> Giải thưởng & Hoạt động</h2>
+                <div class="awards-list" contenteditable="true">
+                    <div class="award-item">
+                        <i class="fas fa-medal"></i>
+                        <div>
+                            <strong>[Tên giải thưởng / Hoạt động]</strong>
+                            <span class="award-meta">[Tổ chức] • [Năm]</span>
+                        </div>
+                    </div>
+                    <div class="award-item">
+                        <i class="fas fa-medal"></i>
+                        <div>
+                            <strong>[Tên giải thưởng / Hoạt động]</strong>
+                            <span class="award-meta">[Tổ chức] • [Năm]</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2><i class="fas fa-heart"></i> Sở thích</h2>
+                <div class="interests" contenteditable="true">
+                    <span class="interest-tag"><i class="fas fa-book"></i> Đọc sách</span>
+                    <span class="interest-tag"><i class="fas fa-running"></i> Chạy bộ</span>
+                    <span class="interest-tag"><i class="fas fa-code"></i> Lập trình</span>
+                    <span class="interest-tag"><i class="fas fa-plane"></i> Du lịch</span>
+                    <span class="interest-tag"><i class="fas fa-music"></i> Âm nhạc</span>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="action-bar">
+        <button class="btn btn-primary" onclick="downloadPDF()">
+            <i class="fas fa-download"></i> Tải PDF
+        </button>
+        <button class="btn btn-secondary" onclick="printCV()">
+            <i class="fas fa-print"></i> In CV
+        </button>
+        <button class="btn btn-outline" onclick="resetContent()">
+            <i class="fas fa-undo"></i> Khôi phục mẫu
+        </button>
+    </div>
+
+    <script src="cv.js"></script>
+</body>
+</html>
